@@ -814,7 +814,54 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Team Section
 --------------------------------*/
+#management {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
 
+#management .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#management .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#management .member .pic img {
+  max-width: 100%;
+}
+
+#management .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#management .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#management .member .social {
+  margin-top: 15px;
+}
+
+#management .member .social a {
+  color: #b3b3b3;
+}
+
+#management .member .social a:hover {
+  color: #2dc997;
+}
+
+#management .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
 #team {
   background: #fff;
   padding: 80px 0 60px 0;
