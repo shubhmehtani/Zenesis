@@ -98,6 +98,10 @@ h6 {
   z-index: 997;
 }
 
+.logo-img{
+  width: 24vh; height: 12vw; 
+}
+
 #header #logo {
   float: left;
 }
@@ -1106,5 +1110,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #about .about-container .title {
     padding-top: 15px;
+  }
+}
+@media (max-device-width: 480px) {
+  #facts .counters span {
+    font-size: 18px;
+    display: block;
+    color: #2dc997;
+  }
+  .logo-img {
+    width: 35%;
+    height: 16%;
+    display: inline-block;
   }
 }
